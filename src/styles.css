@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina");
+@media screen and (max-width: 400px) {
+  .List {
+    width: 90%;
+  }
+  .Menu {
+    width: 90%;
+  }
+}
+
+.ToDoApp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  text-align: center;
+  padding: 3vw 5vw 4vw 7vw;
+  margin-left: 2vw;
+  width: 80vw;
+  min-height: 35vw;
+  font-family: "Baloo Bhaina", sans-serif;
+}
+
+.List {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  margin: 0 1vw 0 2vw;
+  width: 60%;
+  background-color: #79d2a6;
+  border-radius: 1vw;
+}
+
+.Menu {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin: 0 1vw 0 2vw;
+  padding-left: 2vw;
+  width: 30%;
+  background-color: #d2a679;
+  text-align: left;
+  border-radius: 1vw;
+}
+
+h1 {
+  font-size: 6vw;
+  color: #339966;
+  text-align: left;
+  margin: 1vw 0 0 5vw;
+}
+
+h2 {
+  font-size: 3vw;
+  color: white;
+  margin-top: 4vw;
+}
+
+h3 {
+  font-size: 3vw;
+  color: #ac7339;
+  font-size: 3.5vw;
+  margin-bottom: 1vw;
+  line-height: 1;
+}
+
+#inp {
+  font: 1.7vw "Baloo Bhaina", sans-serif;
+  color: #d9b38c;
+  border-radius: 0.5vw;
+  width: 21.5vw;
+  border-color: white;
+  margin-left: 0.1vw;
+  padding-left: 0.4vw;
+}
+
+#submitButton, #submitTheme {
+  font: 1.6vw "Baloo Bhaina", sans-serif;
+  border-radius: 0.5vw;
+  margin: 1.9vw 1vw 0 0.1vw;
+  padding: 0.2vw 1vw 0 0.8vw;
+  line-height: 1.4;
+  color: white;
+  background-color: #ac7339;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#clearButton {
+  font: 1.6vw "Baloo Bhaina", sans-serif;
+  border-radius: 0.5vw;
+  margin: 1.9vw 0.2vw 0 0.8vw;
+  padding: 0.2vw 0.8vw 0 1vw;
+  line-height: 1.4;
+  color: #26734d;
+  background-color: #79d2a6;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#listBackgr {
+  background-color: white;
+  border-radius: 0.9vw;
+  margin: 0 4.5vw 3vw 4.5vw;
+  padding: 2vw 2vw 1vw 1.5vw;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input[type='checkbox'] {
+  height: 1.3vw;
+  width: 1.3vw;
+  border-radius: 25vw;
+}
+
+label {
+  color: #996633;
+  font: 2.3vw  "Baloo Bhaina", sans-serif;
+  line-height: 1.5;
+  padding-left: 0.5vw;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+
+input[type=checkbox]:checked {
+  visibility: hidden;
+}
+
+h4 {
+  margin-top: 5.5vw;
+  margin-bottom: 0;
+  font-size: 2.5vw;
+  line-height: 0.5;
+  color: white;
+}
+
+select {
+  margin-bottom: 1.7vw;
+  font: 1.1vw "Baloo Bhaina", sans-serif;
+  line-height: 0.2;
+  color: #ac7339;
+  border-radius: 0.5vw;
+  padding: 0.3vw 0 0 0.3vw;
+  width: 11.5vw;
+}
+
+#submitTheme {
+  margin-left: 2vw !important;
+}
+/*# sourceMappingURL=styles.css.map */
