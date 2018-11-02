@@ -61,11 +61,7 @@ import React, { Component } from 'react';
         case 'batman':
           applyTheme('#0d0d0d', '#000000', '#404040', '#e6b800', '#ffffff');
           break;
-          
-        case 'mary':
-          applyTheme('#ff3333', '#990000', '#330000', '#ac7339', '#990000', '#e6ccb3');
-          break;
-          
+        
         case 'blankets':
           applyTheme('#bf80ff', '#ffffff',  '#ccccff', '#a64dff', '#6666ff', '#ffe6cc');
           break;
@@ -81,6 +77,9 @@ import React, { Component } from 'react';
         case 'cocoa':
           applyTheme('#d2a679', '#79d2a6', '#ffffff', '#339966', '#ac7339');
           break;
+
+        default: 
+        applyTheme('#d2a679', '#79d2a6', '#ffffff', '#339966', '#ac7339');
       }
     }
     render() {
@@ -94,9 +93,6 @@ import React, { Component } from 'react';
   }
   
   class Menu extends Component {
-    constructor(props) {
-      super(props);
-    }
     render() {
       return (
         <div className='Menu'>
@@ -112,9 +108,6 @@ import React, { Component } from 'react';
   }
   
   class List extends Component {
-    constructor(props) {
-      super(props);
-    }
     render() {
       const td = this.props.t.map(el =>                     
       <li key={el.toString()}>
@@ -134,9 +127,6 @@ import React, { Component } from 'react';
   }
   
   class Theme extends Component {
-    constructor(props) {
-      super(props);
-    }
     render() {
       return (
         <div className='themes'>
